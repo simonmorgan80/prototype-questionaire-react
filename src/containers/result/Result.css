@@ -1,0 +1,23 @@
+/* Oval: */
+@media (min-width: 1200px) {
+  .profile {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around; } }
+
+@media (min-width: 1200px) {
+  .profile_image {
+    width: 41.66667%; } }
+
+.profile_name {
+  border-bottom: 1px solid #303030;
+  padding-bottom: 20px;
+  text-transform: capitalize; }
+
+.profile_prefix {
+  margin-bottom: 10px; }
+
+@media (min-width: 1200px) {
+  .profile_content {
+    padding-left: 20px;
+    width: 41.66667%; } }

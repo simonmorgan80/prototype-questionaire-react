@@ -1,0 +1,7 @@
+/* Oval: */
+.welcome {
+  padding-top: 20px; }
+  @media (min-width: 992px) {
+    .welcome {
+      padding-top: 40px;
+      width: 58.33333%; } }

@@ -1,0 +1,20 @@
+@import './public/scss/fonts';
+@import './public/scss/variables';
+@import './public/scss/mixins';
+@import './public/scss/button';
+@import './public/scss/forms';
+@import './public/scss/typography';
+@import './public/scss/layout';
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}

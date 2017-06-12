@@ -1,0 +1,231 @@
+/* Oval: */
+.button {
+  appearance: none;
+  background: #eaeaea;
+  color: #303030;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 1em;
+  padding: 12px 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.1s ease-in;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased; }
+  .button:hover {
+    background-color: #303030;
+    color: #fff; }
+
+.button-group {
+  display: flex;
+  justify-content: space-between; }
+  @media (min-width: 992px) {
+    .button-group {
+      justify-content: flex-end; } }
+
+@media (min-width: 992px) {
+  .button-group_item {
+    margin-right: 20px; }
+    .button-group_item:last-child {
+      margin-right: 0; } }
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+input,
+label,
+select {
+  display: block;
+  font-size: 1em; }
+
+label {
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 6px; }
+
+input[type="text"],
+input[type="number"],
+select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  border: 1px solid #eaeaea;
+  font-family: "Helvetica";
+  min-height: 42px;
+  padding: 0 10px;
+  width: 100%; }
+  @media (min-width: 1200px) {
+    input[type="text"],
+    input[type="number"],
+    select {
+      font-size: 20px; } }
+
+select {
+  appearance: none; }
+
+.form-navigation {
+  padding: 50px 0 0;
+  position: relative;
+  text-align: right; }
+  @media (min-width: 992px) {
+    .form-navigation {
+      padding-top: 50px; } }
+
+.message {
+  background-color: #fff;
+  font-family: "Helvetica";
+  left: 0;
+  padding: 8px;
+  position: absolute;
+  top: 0; }
+
+.message--error {
+  color: #ff1515; }
+
+.field {
+  margin-bottom: 24px; }
+
+.field_control {
+  position: relative; }
+
+.field_control--select:before, .field_control--select:after {
+  content: '';
+  position: absolute; }
+
+.field_control--select:before {
+  border: 8px solid transparent;
+  border-top-color: #303030;
+  height: 0;
+  margin-top: -4px;
+  right: 12px;
+  top: 50%;
+  width: 0; }
+
+.field_control--select:after {
+  background-color: #eaeaea;
+  bottom: 0;
+  right: 42px;
+  top: 0;
+  width: 1px; }
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  overflow-y: scroll; }
+
+body {
+  color: #303030;
+  font-family: "Helvetica", Arial, sans-serif;
+  line-height: 1.5;
+  /*24*/
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.25;
+  margin: 0 0 1.5rem; }
+
+p {
+  margin: 0 0 1.5rem; }
+
+label {
+  cursor: pointer; }
+
+.heading--xlarge {
+  font-size: 2.8750em;
+  /* 46px */
+  line-height: 1.0435em;
+  /* 48px */
+  margin-bottom: 0.5217em; }
+
+.heading--large {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 2.0000em;
+  /* 32px */
+  line-height: 1.5000em;
+  /* 48px */
+  margin-bottom: 0.7500em; }
+
+.heading--medium {
+  font-size: 1.3125em;
+  /* 21px */
+  line-height: 1.1429em;
+  /* 24px */
+  margin-bottom: 1.1429em; }
+
+.heading--small,
+.lead {
+  font-size: 1.1250em;
+  /* 18px */
+  line-height: 1.3333em;
+  /* 24px */
+  margin-bottom: 1.3333em; }
+
+@media (min-width: 1200px) {
+  .lead {
+    font-size: 1.3125em;
+    /* 21px */
+    margin-bottom: 1.1429em; } }
+
+.section {
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+  @media (min-width: 768px) {
+    .section {
+      display: flex;
+      align-items: center; } }
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto; }
+
+* {
+  box-sizing: border-box; }
+
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }

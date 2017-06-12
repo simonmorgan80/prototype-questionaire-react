@@ -1,0 +1,11 @@
+@import 'public/scss/variables';
+@import 'public/scss/mixins';
+
+.welcome {
+    padding-top: 20px;
+
+    @include respond-to(medium) {
+        padding-top: 40px;
+        width: (100% / 12) * 7;
+    }
+}

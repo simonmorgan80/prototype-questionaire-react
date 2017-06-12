@@ -1,0 +1,44 @@
+.section {
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    @include respond-to(small) {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+// .section--step {
+//     background-image: url(/assets/images/profiler-background-graphic.svg);
+//     background-repeat: no-repeat;
+//     background-position: bottom left;
+// }
+
+
+
+.sr-only {
+    @include sr-only();
+}
+
+.sr-only-focusable {
+
+    &:active,
+    &:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        clip: auto;
+    }
+}

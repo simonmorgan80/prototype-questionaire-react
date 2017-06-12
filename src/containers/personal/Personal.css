@@ -1,0 +1,4 @@
+/* Oval: */
+@media (min-width: 768px) {
+  .fieldset--personal {
+    width: calc(50% - 20px); } }
